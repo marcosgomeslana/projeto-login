@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+   Azul: #008de9
+   Magno: #3b0d11
+   Casca de Ovo: #faf3dd
+*/
+
+:root{
+    --azul: #008de9;
+    --petroleo: #729B79;
+    --casca-ovo: #f8f4ea;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--petroleo);
+    
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: var(--casca-ovo);
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.488);;
+    
+
+}
+
+div#imagen{
+    height: 200px;
+    background: url('../imagens/login-stick.jpg') no-repeat left center fixed;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+div#formulario{
+    padding: 10px;
+    height: 300px;
+    
+
+}
+
+div#formulario > h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 14px;
+}
+
+#icon-user, #icon-chave{
+    
+    font-size: 28px;
+    color: var(--casca-ovo);
+    font-variation-settings: 'FILL' 1;
+    padding: 6px;
+    
+
+}
+div#div-email, div#div-senha{
+    background-color: var(--petroleo);
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 225px;
+    height: 40px;
+}
+
+label{
+    
+}
+
+input#iemail, input#isenha{
+   
+   border: 0px;
+   border-radius: 10px;
+   font-size: 16px;
+   padding-left: 8px;
+   padding-top:  17px;
+   padding-right: 6px;
+   
+   
+   
+   
+
+}
+#botoes{
+    margin-top: 5px;
+}
+
+#entrar{
+    display: block;
+    padding: 8px;
+    font-size: 15px;
+    width: 225px;
+    border-radius: 10px;
+    border: 2px solid var(--petroleo);
+    background-color: var(--petroleo);
+    color: white;
+
+
+    
+}
+#icon-carta{
+    font-size: 15px;;
+}
+#outra-senha{
+    display: block;
+    padding: 8px;
+    font-size: 15px;
+    width: 225px;
+    border-radius: 7px;
+    border: 2px solid var(--petroleo);
+    margin-top: 5px;
+    color: var(--petroleo);
+
+
+}
+
+ #entrar:hover{
+    background-color: #4e6b53;
+} 
+
+#outra-senha:hover{
+    background-color: var(--petroleo);
+    color: white;
+    border: 2px solid white;
+}
+
