@@ -109,7 +109,7 @@ form > a.botao{
     border: 1px solid var(--petroleo);
     border-radius: 7px;
     text-decoration: none;
-    padding-top: 1px;
+    padding-top: 6px;
     margin-top: 5px;
     
 }
